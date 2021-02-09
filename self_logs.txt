@@ -1,0 +1,14 @@
+GPU_COUNT = 1
+IMAGES_PER_GPU = 1
+NUM_CLASSES = 1 + 6 
+IMAGE_MIN_DIM = 128
+IMAGE_MAX_DIM = 1024
+RPN_ANCHOR_SCALES = (4, 8, 16, 32)  # anchor side in pixels
+TRAIN_ROIS_PER_IMAGE = 32
+
+mAP = 0.1166   precision = 0.1910   recall = 0.3070  
+mAP = 0.0257   precision = 0.0565   recall = 0.1300  
+
+# 多训练1000多个epoch后
+mAP = 0.1214   precision = 0.2088   recall = 0.3218  
+mAP = 0.0242   precision = 0.0977   recall = 0.1272  
